@@ -2,20 +2,20 @@
 
 **Sistema de Monitoramento de Energia**
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 O PowerHome é um conceito de solução IoT para o monitoramento e gestão do consumo energético residencial. 
 
 **Nota:** Este repositório foca exclusivamente na estrutura de Banco de Dados do projeto, atuando como um protótipo acadêmico para demonstrar a modelagem de dados e a implementação rigorosa de regras de negócio utilizando puramente SQL.
 
-## 🗂️ Modelagem de Dados
+## Modelagem de Dados
 
 A arquitetura do banco foi mapeada antes do desenvolvimento dos scripts e está dividida em duas etapas no repositório:
 
 * **`der-conceitual/`**: Contém o Diagrama de Entidade-Relacionamento (DER) de alto nível, definindo as entidades principais (como Usuários, Cômodos e Dispositivos) e as regras de negócio.
 * **`der-logico/`**: Contém o esquema lógico, detalhando os tipos de dados, chaves estrangeiras, multiplicidades e o modelo relacional pronto para o banco.
 
-## 💻 Implementação em SQL (`codigo-mysql/`)
+## Implementação em SQL (`codigo-mysql/`)
 
 O diretório `codigo-mysql/` concentra todo o desenvolvimento do banco relacional. O código foi estruturado para ir além do básico, utilizando os seguintes recursos:
 
